@@ -3,13 +3,13 @@
 An implementation of MLEM2 rule induction algorithm [1].
 
 ## How to use
-First, obtain a training data set `a.train` and a validation data set `a.test` by 10-fold cross validation.
+First, we obtain a training data set `a.train` and a validation data set `a.test` by 10-fold cross validation.
 ```
 ruby cv10eqcls.rb -a <attribute file> -i <data file> -d <class name> -p <test position> -s <seed>
 ```
 `<test position>` is 0,1,...,9.
 
-Compute a rule set `a.rule` by the MLEM2 algorithm.
+We compute a rule set `a.rule` by the MLEM2 algorithm.
 ```
 ruby mlem2.rb -a <attribute file> -i <training data file (a.train)> -c <attribute setting file>
 ```
