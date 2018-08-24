@@ -11,7 +11,7 @@ ruby cv10eqcls.rb -a <attribute file> -i <data file> -d <class name> -p <test po
 
 Compute a rule set `a.rule` by the MLEM2 algorithm.
 ```
-ruby mlem2.rb -a <attribute file> -i <training data file (a.train)> -c <attribute setting file> -s <seed>
+ruby mlem2.rb -a <attribute file> -i <training data file (a.train)> -c <attribute setting file>
 ```
 
 Classify the validation data set `a.test` by the obtained rule set `a.rule`.
