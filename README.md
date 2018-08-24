@@ -27,6 +27,8 @@ For `zoo dataset`, we set as follows.
 <attribute setting file> := datasets/zoo.cond
 ```
 
+## Example 
+
 Run, 
 ```
 ruby mlem2.rb -a datasets/zoo.attr -c datasets/zoo.cond -i datasets/zoo.data
