@@ -1,0 +1,9 @@
+preg : integer
+plas : integer
+pres : integer
+skin : integer
+insu : integer
+mass : real
+pedi : real
+age : integer
+class : tested_negative tested_positive

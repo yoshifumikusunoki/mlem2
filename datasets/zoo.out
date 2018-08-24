@@ -1,0 +1,521 @@
+Accuracy
+1.000000
+
+Contingency table
+ 41   0   0   0   0   0   0 
+  0  20   0   0   0   0   0 
+  0   0   5   0   0   0   0 
+  0   0   0  13   0   0   0 
+  0   0   0   0   4   0   0 
+  0   0   0   0   0   8   0 
+  0   0   0   0   0   0  10 
+
+(id,aardvark) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,antelope) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,bass) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,bear) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,boar) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,buffalo) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,calf) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,carp) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,false) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,true) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,catfish) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,cavy) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,true) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,cheetah) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,chicken) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,true) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,chub) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,clam) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,0) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+[type = invertebrate] <- [backbone = false] [legs = 0]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(4) ]
+
+(id,crab) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,crayfish) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,crow) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,deer) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,dogfish) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,dolphin) (hair,false) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,dove) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,true) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,duck) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,true) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,elephant) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,flamingo) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,flea) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,frog) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,false) (type,amphibian) 
+[type = amphibian]
+[type = amphibian] <- [aquatic = true] [toothed = true] [legs = 4] [catsize = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(4) insect(0) invertebrate(0) ]
+
+(id,frog) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,true) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,false) (type,amphibian) 
+[type = amphibian]
+[type = amphibian] <- [aquatic = true] [toothed = true] [legs = 4] [catsize = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(4) insect(0) invertebrate(0) ]
+
+(id,fruitbat) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,true) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,giraffe) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,girl) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,false) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,gnat) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,goat) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,gorilla) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,false) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,gull) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,true) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,haddock) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,false) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,hamster) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,hare) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,hawk) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,herring) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,honeybee) (hair,true) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,true) (fins,false) (legs,6) (tail,false) (domestic,true) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,housefly) (hair,true) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,kiwi) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,ladybird) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,true) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,lark) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,leopard) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,lion) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,lobster) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,lynx) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,mink) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,mole) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,mongoose) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,moth) (hair,true) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,newt) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,amphibian) 
+[type = amphibian]
+[type = amphibian] <- [aquatic = true] [toothed = true] [legs = 4] [catsize = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(4) insect(0) invertebrate(0) ]
+
+(id,octopus) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,8) (tail,false) (domestic,false) (catsize,true) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,opossum) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,oryx) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,ostrich) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,parakeet) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,true) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,penguin) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,pheasant) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,pike) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,piranha) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,pitviper) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,true) (fins,false) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,reptile) 
+[type = reptile]
+[type = reptile] <- [fins = false] [legs = 0] [tail = true]
+	[ mammal(0) bird(0) reptile(3) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,platypus) (hair,true) (feathers,false) (eggs,true) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,polecat) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,pony) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,porpoise) (hair,false) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,puma) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,pussycat) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,raccoon) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,reindeer) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,true) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,rhea) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,scorpion) (hair,false) (feathers,false) (eggs,false) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,false) (backbone,false) (breathes,true) (venomous,true) (fins,false) (legs,8) (tail,true) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,seahorse) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,false) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,seal) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,true) (legs,0) (tail,false) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,sealion) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,true) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,seasnake) (hair,false) (feathers,false) (eggs,false) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,true) (fins,false) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,reptile) 
+[type = reptile]
+[type = reptile] <- [fins = false] [legs = 0] [tail = true]
+	[ mammal(0) bird(0) reptile(3) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,seawasp) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,true) (fins,false) (legs,0) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+[type = invertebrate] <- [backbone = false] [legs = 0]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(4) ]
+
+(id,skimmer) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,true) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,skua) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,true) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,slowworm) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,reptile) 
+[type = reptile]
+[type = reptile] <- [fins = false] [legs = 0] [tail = true]
+	[ mammal(0) bird(0) reptile(3) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,slug) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,0) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [backbone = false] [legs = 0]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(4) ]
+
+(id,sole) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,false) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,false) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,sparrow) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,squirrel) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,starfish) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,false) (backbone,false) (breathes,false) (venomous,false) (fins,false) (legs,5) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [airborne = false] [predator = true] [backbone = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(8) ]
+
+(id,stingray) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,true) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,swan) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,true) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,termite) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,toad) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,false) (domestic,false) (catsize,false) (type,amphibian) 
+[type = amphibian]
+[type = amphibian] <- [aquatic = true] [toothed = true] [legs = 4] [catsize = false]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(4) insect(0) invertebrate(0) ]
+
+(id,tortoise) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,reptile) 
+[type = reptile]
+[type = reptile] <- [hair = false] [aquatic = false] [legs = 4]
+	[ mammal(0) bird(0) reptile(2) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,tuatara) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,reptile) 
+[type = reptile]
+[type = reptile] <- [hair = false] [aquatic = false] [legs = 4]
+	[ mammal(0) bird(0) reptile(2) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,tuna) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,true) (predator,true) (toothed,true) (backbone,true) (breathes,false) (venomous,false) (fins,true) (legs,0) (tail,true) (domestic,false) (catsize,true) (type,fish) 
+[type = fish]
+[type = fish] <- [breathes = false] [fins = true]
+	[ mammal(0) bird(0) reptile(0) fish(13) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,vampire) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,true) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,vole) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,false) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,vulture) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,true) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,wallaby) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,false) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,wasp) (hair,true) (feathers,false) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,true) (fins,false) (legs,6) (tail,false) (domestic,false) (catsize,false) (type,insect) 
+[type = insect]
+[type = insect] <- [aquatic = false] [legs = 6]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(8) invertebrate(0) ]
+
+(id,wolf) (hair,true) (feathers,false) (eggs,false) (milk,true) (airborne,false) (aquatic,false) (predator,true) (toothed,true) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,4) (tail,true) (domestic,false) (catsize,true) (type,mammal) 
+[type = mammal]
+[type = mammal] <- [milk = true]
+	[ mammal(41) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+
+(id,worm) (hair,false) (feathers,false) (eggs,true) (milk,false) (airborne,false) (aquatic,false) (predator,false) (toothed,false) (backbone,false) (breathes,true) (venomous,false) (fins,false) (legs,0) (tail,false) (domestic,false) (catsize,false) (type,invertebrate) 
+[type = invertebrate]
+[type = invertebrate] <- [backbone = false] [legs = 0]
+	[ mammal(0) bird(0) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(4) ]
+
+(id,wren) (hair,false) (feathers,true) (eggs,true) (milk,false) (airborne,true) (aquatic,false) (predator,false) (toothed,false) (backbone,true) (breathes,true) (venomous,false) (fins,false) (legs,2) (tail,true) (domestic,false) (catsize,false) (type,bird) 
+[type = bird]
+[type = bird] <- [feathers = true]
+	[ mammal(0) bird(20) reptile(0) fish(0) amphibian(0) insect(0) invertebrate(0) ]
+

@@ -1,0 +1,18 @@
+id : string
+hair : false true
+feathers : false true
+eggs : false true
+milk : false true
+airborne : false true
+aquatic : false true
+predator : false true
+toothed : false true
+backbone : false true
+breathes : false true
+venomous : false true
+fins : false true
+legs : integer
+tail : false true
+domestic : false true
+catsize : false true
+type : mammal bird reptile fish amphibian insect invertebrate

@@ -1,0 +1,180 @@
+[class = unacc] <- [buying >= high] [doors <= 3] [persons <= 4] [lug_boot <= med] [safety <= med]
+	[ unacc(128) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= vhigh] [maint >= high]
+	[ unacc(216) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [persons <= 2]
+	[ unacc(576) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [safety <= low]
+	[ unacc(576) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= med] [maint >= high] [doors <= 2] [lug_boot <= med] [safety <= med]
+	[ unacc(72) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= high] [maint >= vhigh]
+	[ unacc(216) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= high] [lug_boot <= small] [safety <= med]
+	[ unacc(192) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [maint >= vhigh] [lug_boot <= small] [safety <= med]
+	[ unacc(96) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [doors <= 2] [persons >= more] [lug_boot <= small]
+	[ unacc(48) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [maint >= vhigh] [doors <= 3] [persons <= 4] [lug_boot <= med] [safety <= med]
+	[ unacc(64) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= med] [maint >= high] [lug_boot <= small] [safety <= med]
+	[ unacc(144) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= high] [doors <= 2] [lug_boot <= med] [safety <= med]
+	[ unacc(96) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [maint >= vhigh] [doors <= 2] [lug_boot <= med] [safety <= med]
+	[ unacc(48) acc(0) good(0) vgood(0) ]
+
+[class = unacc] <- [buying >= med] [maint >= high] [doors <= 3] [persons <= 4] [lug_boot <= med] [safety <= med]
+	[ unacc(96) acc(0) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= vhigh] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety >= med]
+	[ unacc(0) acc(32) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety >= med]
+	[ unacc(0) acc(64) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [buying <= high] [maint <= high] [persons >= 4] [lug_boot >= big] [safety >= med]
+	[ unacc(0) acc(48) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= low] [maint >= high] [maint <= high] [doors >= 3] [persons >= 4] [lug_boot <= small] [safety >= med]
+	[ unacc(0) acc(12) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= med] [buying <= high] [maint >= med] [maint <= high] [doors >= 3] [persons >= 4] [lug_boot <= small] [safety >= high]
+	[ unacc(0) acc(24) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [persons >= 4] [lug_boot >= big] [safety >= med]
+	[ unacc(0) acc(64) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= low] [maint >= high] [maint <= high] [doors <= 2] [persons >= 4] [lug_boot >= med] [lug_boot <= med] [safety >= med]
+	[ unacc(0) acc(4) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= med] [buying <= high] [maint >= med] [maint <= high] [doors <= 2] [persons >= 4] [lug_boot >= med] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(8) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= high] [maint >= high] [maint <= high] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(24) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= high] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(16) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [persons <= 4] [persons >= 4] [safety >= high]
+	[ unacc(0) acc(48) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint <= med] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(16) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint <= med] [doors >= 3] [persons >= 4] [lug_boot <= small] [safety <= med] [safety >= med]
+	[ unacc(0) acc(24) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= high] [persons >= 4] [lug_boot >= big] [safety <= med] [safety >= med]
+	[ unacc(0) acc(32) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= med] [buying <= med] [maint <= med] [maint >= med] [persons >= 4] [lug_boot >= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(16) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= med]
+	[ unacc(0) acc(48) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [doors >= 3] [persons >= 4] [safety >= high]
+	[ unacc(0) acc(72) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= vhigh] [doors >= 3] [persons >= 4] [safety >= high]
+	[ unacc(0) acc(36) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= med] [buying <= high] [maint >= high] [maint <= high] [persons >= 4] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(32) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= low] [maint <= high] [doors <= 2] [persons >= 4] [lug_boot >= med] [lug_boot <= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(6) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= vhigh] [persons >= 4] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(32) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= low] [maint >= high] [maint <= high] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety >= med]
+	[ unacc(0) acc(8) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= high] [maint <= med] [persons >= 4] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(64) good(0) vgood(0) ]
+
+[class = acc] <- [buying >= med] [buying <= high] [maint >= med] [maint <= high] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(16) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint >= high] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= med] [safety <= med]
+	[ unacc(0) acc(24) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= med] [maint <= low] [doors <= 2] [persons >= more] [lug_boot >= med] [lug_boot <= med] [safety >= med] [safety <= med]
+	[ unacc(0) acc(2) good(0) vgood(0) ]
+
+[class = acc] <- [buying <= high] [buying >= high] [maint <= high] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= med]
+	[ unacc(0) acc(36) good(0) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [doors >= 3] [persons >= 4] [lug_boot <= small] [safety >= high]
+	[ unacc(0) acc(0) good(12) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(0) good(16) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [persons >= 4] [lug_boot >= big] [safety <= med] [safety >= med]
+	[ unacc(0) acc(0) good(16) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [doors >= 3] [persons >= 4] [lug_boot <= small] [safety >= high]
+	[ unacc(0) acc(0) good(12) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(0) good(16) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [doors <= 2] [persons >= 4] [lug_boot <= med] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(0) good(4) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [persons >= 4] [lug_boot >= big] [safety <= med] [safety >= med]
+	[ unacc(0) acc(0) good(16) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(0) good(8) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [doors >= 3] [persons >= more] [lug_boot >= med] [safety <= med] [safety >= med]
+	[ unacc(0) acc(0) good(12) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [doors <= 3] [persons <= 4] [persons >= 4] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(0) good(8) vgood(0) ]
+
+[class = good] <- [buying <= low] [maint <= med] [doors <= 2] [persons >= more] [lug_boot >= med] [lug_boot <= med] [safety >= high]
+	[ unacc(0) acc(0) good(2) vgood(0) ]
+
+[class = good] <- [buying <= med] [maint <= low] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= med] [safety <= med]
+	[ unacc(0) acc(0) good(12) vgood(0) ]
+
+[class = vgood] <- [buying <= med] [maint <= med] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(32) ]
+
+[class = vgood] <- [buying <= med] [maint <= med] [persons >= 4] [lug_boot >= big] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(32) ]
+
+[class = vgood] <- [buying <= low] [maint <= high] [doors >= 4] [persons >= 4] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(24) ]
+
+[class = vgood] <- [buying <= low] [maint <= high] [persons >= 4] [lug_boot >= big] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(24) ]
+
+[class = vgood] <- [buying <= med] [maint <= med] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(24) ]
+
+[class = vgood] <- [buying <= low] [maint <= high] [doors >= 3] [persons >= more] [lug_boot >= med] [safety >= high]
+	[ unacc(0) acc(0) good(0) vgood(18) ]
+
+[class = unacc] <-
+	[ unacc(1210) acc(384) good(69) vgood(65) ]
+

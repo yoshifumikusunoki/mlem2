@@ -1,0 +1,234 @@
+[class = tested_negative] <- [preg <= 6] [plas <= 116] [mass <= 30.45] [pedi <= 0.6735] [age <= 45]
+	[ tested_negative(139) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 11] [plas >= 44] [plas <= 94] [pres >= 52] [skin <= 41] [insu <= 158] [pedi <= 1.141] [age <= 54]
+	[ tested_negative(104) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 81] [plas <= 130] [pres <= 74] [mass >= 30.45] [pedi >= 0.1975] [pedi <= 0.4755] [age <= 30]
+	[ tested_negative(40) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 110] [plas <= 133] [skin <= 19] [mass >= 9.1] [mass <= 28.15] [pedi <= 0.3185]
+	[ tested_negative(23) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 194] [skin <= 23] [insu <= 170] [mass <= 28.65] [pedi >= 0.7324999999999999] [age <= 58]
+	[ tested_negative(18) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 5] [pres >= 75] [pres <= 100] [insu <= 178] [mass <= 37.349999999999994] [pedi <= 0.2535] [age <= 69]
+	[ tested_negative(24) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 96] [plas <= 135] [pres >= 68] [pres <= 96] [mass >= 34.650000000000006] [mass <= 45.349999999999994] [pedi <= 0.2925] [age <= 51]
+	[ tested_negative(27) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 180] [skin <= 36] [insu <= 155] [mass >= 22.95] [mass <= 32.25] [pedi >= 0.594] [pedi <= 0.7304999999999999]
+	[ tested_negative(21) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 141] [insu <= 158] [mass >= 36.650000000000006] [pedi >= 0.505] [age >= 22] [age <= 31]
+	[ tested_negative(14) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 121] [plas <= 154] [pres >= 55] [skin <= 26] [mass <= 37.849999999999994] [pedi <= 0.5155000000000001] [age <= 28]
+	[ tested_negative(23) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 6] [plas <= 140] [pres <= 80] [mass <= 32.650000000000006] [pedi >= 0.7344999999999999] [pedi <= 0.969]
+	[ tested_negative(20) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 117] [mass >= 32.349999999999994] [mass <= 34.05] [pedi >= 0.928]
+	[ tested_negative(3) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 94] [plas <= 138] [skin <= 39] [insu >= 81] [mass >= 30.6] [mass <= 45.349999999999994] [age >= 22] [age <= 25]
+	[ tested_negative(21) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 7] [plas >= 137] [plas <= 157] [pres >= 61] [insu >= 116] [mass >= 31.75] [mass <= 42.5] [age <= 52]
+	[ tested_negative(12) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 6] [preg <= 13] [plas <= 123] [pres >= 68] [pres <= 96] [mass >= 29.75] [pedi <= 0.659] [age >= 39]
+	[ tested_negative(20) tested_positive(0) ]
+
+[class = tested_negative] <- [pres >= 64] [skin >= 38] [insu >= 37] [insu <= 204] [mass <= 58.349999999999994] [pedi <= 0.7004999999999999] [age <= 29]
+	[ tested_negative(18) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 193] [pedi <= 0.2445] [age >= 55] [age <= 69]
+	[ tested_negative(10) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 7] [pres <= 96] [skin >= 23] [insu <= 240] [mass <= 32.45] [pedi >= 0.6725000000000001]
+	[ tested_negative(18) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 4] [plas >= 104] [plas <= 145] [pres >= 74] [pres <= 95] [insu <= 126] [mass <= 30.95] [pedi <= 0.5645] [age >= 33]
+	[ tested_negative(16) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 183] [mass >= 32.75] [mass <= 39.349999999999994] [pedi >= 0.2645] [pedi <= 0.3945] [age >= 41] [age <= 51]
+	[ tested_negative(9) tested_positive(0) ]
+
+[class = tested_negative] <- [skin >= 15] [mass >= 31.75] [mass <= 33.25] [pedi <= 0.5275000000000001] [age <= 42]
+	[ tested_negative(23) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 9] [plas <= 127] [skin <= 23] [mass <= 26.95] [pedi <= 0.659] [age <= 53]
+	[ tested_negative(91) tested_positive(0) ]
+
+[class = tested_negative] <- [skin <= 43] [mass >= 40.05] [mass <= 40.849999999999994]
+	[ tested_negative(7) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 2] [preg <= 13] [plas >= 153] [pres >= 24] [pres <= 84] [mass >= 25.55] [mass <= 35.150000000000006] [pedi >= 0.1635] [pedi <= 0.339] [age >= 32]
+	[ tested_negative(8) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 143] [pedi <= 0.195] [age >= 47] [age <= 51]
+	[ tested_negative(3) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 7] [plas >= 108] [mass <= 23.25]
+	[ tested_negative(21) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 13] [plas <= 140] [pres >= 54] [mass >= 27.65] [mass <= 42.25] [pedi <= 0.1605] [age <= 49]
+	[ tested_negative(25) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 6] [plas >= 165] [pres >= 68] [skin <= 39] [insu >= 265] [pedi >= 0.2705]
+	[ tested_negative(3) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 146] [pres >= 80] [insu >= 196] [pedi >= 0.8105]
+	[ tested_negative(4) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 10] [preg <= 13] [mass >= 31.15] [pedi <= 0.4305] [age <= 41]
+	[ tested_negative(8) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 2] [preg <= 6] [plas >= 109] [mass >= 33.4] [pedi >= 0.6305000000000001] [pedi <= 0.848] [age >= 26]
+	[ tested_negative(6) tested_positive(0) ]
+
+[class = tested_negative] <- [plas >= 139] [pres <= 92] [skin >= 38] [insu <= 255] [mass <= 48.099999999999994] [pedi <= 0.3755] [age >= 24] [age <= 43]
+	[ tested_negative(3) tested_positive(0) ]
+
+[class = tested_negative] <- [plas <= 158] [skin <= 35] [insu >= 116] [mass <= 30.05] [pedi <= 0.681] [age <= 38]
+	[ tested_negative(19) tested_positive(0) ]
+
+[class = tested_negative] <- [pres >= 24] [pres <= 58] [skin <= 39] [pedi >= 0.653] [age <= 28]
+	[ tested_negative(12) tested_positive(0) ]
+
+[class = tested_negative] <- [pres >= 80] [skin <= 40] [mass <= 43.349999999999994] [pedi >= 0.594] [pedi <= 0.681]
+	[ tested_negative(6) tested_positive(0) ]
+
+[class = tested_negative] <- [preg >= 1] [preg <= 6] [plas >= 98] [plas <= 124] [skin >= 26] [skin <= 38] [pedi >= 0.2705] [pedi <= 0.5275000000000001]
+	[ tested_negative(21) tested_positive(0) ]
+
+[class = tested_negative] <- [preg <= 9] [skin <= 26] [mass >= 31.15] [mass <= 36.05] [pedi >= 0.2705] [pedi <= 0.3825] [age >= 24] [age <= 42]
+	[ tested_negative(9) tested_positive(0) ]
+
+[class = tested_negative] <- [pres <= 80] [insu <= 87] [pedi >= 0.544] [pedi <= 0.5645]
+	[ tested_negative(12) tested_positive(0) ]
+
+[class = tested_negative] <- [pres <= 38] [mass >= 43.25] [pedi <= 0.195]
+	[ tested_negative(1) tested_positive(0) ]
+
+[class = tested_positive] <- [preg <= 5] [plas >= 128] [skin <= 39] [insu <= 200] [mass >= 31.450000000000003] [pedi >= 0.44] [age <= 42]
+	[ tested_negative(0) tested_positive(23) ]
+
+[class = tested_positive] <- [preg >= 1] [plas >= 97] [pres >= 64] [pres <= 86] [skin <= 44] [insu <= 328] [mass >= 33.55] [mass <= 38.05] [pedi >= 0.5285] [age <= 48]
+	[ tested_negative(0) tested_positive(13) ]
+
+[class = tested_positive] <- [plas >= 97] [skin >= 15] [skin <= 37] [insu <= 74] [mass >= 29.65] [pedi >= 0.3425] [age >= 27] [age <= 58]
+	[ tested_negative(0) tested_positive(19) ]
+
+[class = tested_positive] <- [preg <= 12] [plas >= 145] [pres >= 70] [insu <= 478] [mass >= 29.95] [mass <= 44.150000000000006] [pedi >= 0.3945] [pedi <= 1.3969999999999998]
+	[ tested_negative(0) tested_positive(42) ]
+
+[class = tested_positive] <- [plas >= 155] [skin <= 42] [insu <= 600] [mass >= 34.05] [pedi >= 0.202] [pedi <= 1.3969999999999998] [age <= 56]
+	[ tested_negative(0) tested_positive(41) ]
+
+[class = tested_positive] <- [plas >= 136] [plas <= 178] [pres <= 80] [insu <= 135] [mass >= 27.85] [pedi <= 0.3355] [age >= 23] [age <= 44]
+	[ tested_negative(0) tested_positive(12) ]
+
+[class = tested_positive] <- [preg <= 9] [plas >= 108] [pres <= 78] [skin <= 0] [mass >= 31.95] [pedi <= 0.3025] [age <= 46]
+	[ tested_negative(0) tested_positive(19) ]
+
+[class = tested_positive] <- [plas >= 108] [plas <= 141] [mass >= 27.35] [mass <= 33.4] [pedi >= 0.7184999999999999] [pedi <= 1.3969999999999998] [age >= 22]
+	[ tested_negative(0) tested_positive(14) ]
+
+[class = tested_positive] <- [plas <= 144] [mass >= 45.349999999999994] [mass <= 56.15] [pedi >= 0.2625] [pedi <= 0.928]
+	[ tested_negative(0) tested_positive(7) ]
+
+[class = tested_positive] <- [plas <= 97] [pres >= 58] [pres <= 94] [skin >= 18] [skin <= 49] [mass >= 27.35] [mass <= 43.45] [pedi >= 0.8614999999999999] [age <= 41]
+	[ tested_negative(0) tested_positive(3) ]
+
+[class = tested_positive] <- [plas >= 132] [skin <= 49] [insu <= 14] [mass >= 29.95] [pedi >= 0.2535] [pedi <= 0.384] [age >= 23]
+	[ tested_negative(0) tested_positive(17) ]
+
+[class = tested_positive] <- [preg >= 5] [plas >= 100] [pres <= 82] [mass >= 27.85] [mass <= 45.95] [pedi >= 0.4645] [pedi <= 0.617] [age <= 58]
+	[ tested_negative(0) tested_positive(13) ]
+
+[class = tested_positive] <- [plas >= 125] [pres <= 82] [skin <= 49] [insu >= 127] [insu <= 285] [mass >= 28.85] [pedi >= 0.3425] [pedi <= 0.57]
+	[ tested_negative(0) tested_positive(16) ]
+
+[class = tested_positive] <- [preg <= 9] [plas >= 100] [plas <= 146] [pres >= 50] [pres <= 92] [mass >= 26.45] [mass <= 37.45] [pedi >= 0.211] [age >= 44] [age <= 52]
+	[ tested_negative(0) tested_positive(12) ]
+
+[class = tested_positive] <- [plas >= 100] [plas <= 120] [insu >= 144] [insu <= 191] [mass <= 37.45] [age >= 28] [age <= 62]
+	[ tested_negative(0) tested_positive(6) ]
+
+[class = tested_positive] <- [preg >= 4] [preg <= 9] [plas >= 124] [plas <= 156] [insu <= 165] [mass <= 27.55] [pedi >= 0.1625] [pedi <= 0.617] [age <= 62]
+	[ tested_negative(0) tested_positive(3) ]
+
+[class = tested_positive] <- [preg >= 2] [plas >= 95] [plas <= 111] [pres <= 86] [skin <= 37] [insu <= 180] [mass >= 25.85] [pedi >= 0.1265] [pedi <= 0.1975] [age >= 22] [age <= 41]
+	[ tested_negative(0) tested_positive(4) ]
+
+[class = tested_positive] <- [pres >= 48] [pres <= 80] [mass >= 38.45] [mass <= 42.349999999999994] [pedi >= 0.2715] [pedi <= 0.786] [age >= 27]
+	[ tested_negative(0) tested_positive(11) ]
+
+[class = tested_positive] <- [preg >= 2] [preg <= 12] [plas >= 78] [pres >= 66] [skin >= 20] [insu <= 207] [mass >= 32.25] [pedi >= 0.6924999999999999] [age >= 28]
+	[ tested_negative(0) tested_positive(20) ]
+
+[class = tested_positive] <- [pres >= 80] [skin <= 37] [insu <= 600] [mass >= 42.849999999999994] [pedi >= 0.1775] [pedi <= 0.76]
+	[ tested_negative(0) tested_positive(10) ]
+
+[class = tested_positive] <- [plas >= 125] [skin >= 48] [age >= 25]
+	[ tested_negative(0) tested_positive(8) ]
+
+[class = tested_positive] <- [preg <= 7] [plas >= 119] [mass >= 26.35] [mass <= 34.349999999999994] [pedi >= 0.1195] [pedi <= 0.2055] [age >= 29] [age <= 54]
+	[ tested_negative(0) tested_positive(8) ]
+
+[class = tested_positive] <- [preg <= 11] [plas >= 78] [skin >= 18] [skin <= 41] [mass >= 28.25] [mass <= 36.650000000000006] [pedi >= 0.1645] [pedi <= 0.544] [age >= 45]
+	[ tested_negative(0) tested_positive(9) ]
+
+[class = tested_positive] <- [plas >= 120] [pres >= 78] [skin <= 46] [insu <= 543] [mass >= 41.65] [pedi <= 0.544] [age <= 46]
+	[ tested_negative(0) tested_positive(11) ]
+
+[class = tested_positive] <- [preg >= 3] [plas >= 106] [pres <= 64] [insu <= 115] [mass <= 26.65] [pedi >= 0.2605] [age >= 23]
+	[ tested_negative(0) tested_positive(4) ]
+
+[class = tested_positive] <- [pres >= 66] [pres <= 86] [skin <= 41] [mass >= 29.55] [mass <= 35.05] [pedi >= 0.195] [pedi <= 0.2335] [age <= 62]
+	[ tested_negative(0) tested_positive(7) ]
+
+[class = tested_positive] <- [preg >= 3] [plas >= 139] [mass >= 23.35] [mass <= 26.85] [age <= 62]
+	[ tested_negative(0) tested_positive(9) ]
+
+[class = tested_positive] <- [preg >= 11] [mass >= 26.55] [mass <= 29.75]
+	[ tested_negative(0) tested_positive(4) ]
+
+[class = tested_positive] <- [preg >= 3] [plas >= 104] [pres >= 70] [pres <= 86] [mass >= 26.35] [mass <= 29.75] [pedi >= 0.2445] [age <= 34]
+	[ tested_negative(0) tested_positive(7) ]
+
+[class = tested_positive] <- [plas >= 104] [skin <= 41] [mass >= 27.35] [pedi >= 0.7395] [pedi <= 0.827] [age >= 25]
+	[ tested_negative(0) tested_positive(13) ]
+
+[class = tested_positive] <- [preg >= 4] [preg <= 10] [plas <= 172] [insu <= 88] [mass >= 32.25] [mass <= 38.25] [pedi >= 0.1505] [pedi <= 0.2785] [age >= 40] [age <= 60]
+	[ tested_negative(0) tested_positive(5) ]
+
+[class = tested_positive] <- [preg <= 8] [pres <= 70] [insu <= 115] [mass >= 26.35] [mass <= 33.650000000000006] [pedi >= 0.1825] [pedi <= 0.2485] [age >= 22] [age <= 60]
+	[ tested_negative(0) tested_positive(6) ]
+
+[class = tested_positive] <- [preg <= 2] [plas >= 90] [pres <= 70] [mass >= 28.85] [mass <= 38.05] [pedi >= 0.5015000000000001] [pedi <= 0.6755] [age >= 22] [age <= 24]
+	[ tested_negative(0) tested_positive(3) ]
+
+[class = tested_positive] <- [skin >= 45] [skin <= 46] [mass >= 37.55] [mass <= 40.55]
+	[ tested_negative(0) tested_positive(3) ]
+
+[class = tested_positive] <- [plas >= 124] [pres <= 85] [skin >= 36] [skin <= 42] [mass <= 38.25] [pedi >= 0.2465] [pedi <= 0.617]
+	[ tested_negative(0) tested_positive(7) ]
+
+[class = tested_positive] <- [preg <= 4] [plas >= 117] [plas <= 125] [pres >= 62] [insu <= 36] [mass >= 26.55] [mass <= 32.349999999999994] [pedi >= 0.2465] [pedi <= 0.544]
+	[ tested_negative(0) tested_positive(3) ]
+
+[class = tested_positive] <- [preg <= 2] [plas >= 90] [plas <= 95] [pres >= 68] [skin >= 17] [skin <= 42] [insu <= 99] [age >= 24] [age <= 27]
+	[ tested_negative(0) tested_positive(2) ]
+
+[class = tested_positive] <- [plas >= 155] [pres >= 74] [insu >= 96] [mass <= 26.65]
+	[ tested_negative(0) tested_positive(2) ]
+
+[class = tested_negative] <-
+	[ tested_negative(500) tested_positive(268) ]
+
